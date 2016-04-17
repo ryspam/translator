@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TranslatorController.h
 //  Translator
 //
 //  Created by Руслан on 16.04.16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TRMainController : UIViewController
 
 @end
-

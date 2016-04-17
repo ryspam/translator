@@ -7,27 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4421DD5D1CC3BD8D00565A28 /* JSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4421DD5C1CC3BD8D00565A28 /* JSONHelper.m */; };
+		4421DD601CC3BFD500565A28 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4421DD5F1CC3BFD500565A28 /* NSString+URLEncode.m */; };
+		4421DD681CC3CB7200565A28 /* WordPair+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4421DD651CC3CB7200565A28 /* WordPair+CoreDataProperties.m */; };
+		4421DD691CC3CB7200565A28 /* WordPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 4421DD671CC3CB7200565A28 /* WordPair.m */; };
 		44FC866B1CC2754F00EB7EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC866A1CC2754F00EB7EEA /* main.m */; };
 		44FC866E1CC2754F00EB7EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC866D1CC2754F00EB7EEA /* AppDelegate.m */; };
-		44FC86711CC2754F00EB7EEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC86701CC2754F00EB7EEA /* ViewController.m */; };
 		44FC86741CC2754F00EB7EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FC86721CC2754F00EB7EEA /* Main.storyboard */; };
 		44FC86771CC2754F00EB7EEA /* Translator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44FC86751CC2754F00EB7EEA /* Translator.xcdatamodeld */; };
 		44FC86791CC2754F00EB7EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44FC86781CC2754F00EB7EEA /* Assets.xcassets */; };
 		44FC867C1CC2754F00EB7EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FC867A1CC2754F00EB7EEA /* LaunchScreen.storyboard */; };
+		44FC868A1CC27A0C00EB7EEA /* TRMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC86891CC27A0C00EB7EEA /* TRMainController.m */; };
+		44FC868E1CC298AC00EB7EEA /* TRBorderedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC868D1CC298AC00EB7EEA /* TRBorderedView.m */; };
+		44FC86921CC2D08E00EB7EEA /* TRTranslateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC86911CC2D08E00EB7EEA /* TRTranslateCell.m */; };
+		44FC86961CC2DDEA00EB7EEA /* TRNetSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC86951CC2DDEA00EB7EEA /* TRNetSession.m */; };
+		44FC86991CC39EE400EB7EEA /* TRGoogleClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC86981CC39EE400EB7EEA /* TRGoogleClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4421DD5B1CC3BD8D00565A28 /* JSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONHelper.h; path = Core/JSONHelper.h; sourceTree = "<group>"; };
+		4421DD5C1CC3BD8D00565A28 /* JSONHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONHelper.m; path = Core/JSONHelper.m; sourceTree = "<group>"; };
+		4421DD5E1CC3BFD500565A28 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncode.h"; path = "Core/NSString+URLEncode.h"; sourceTree = "<group>"; };
+		4421DD5F1CC3BFD500565A28 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncode.m"; path = "Core/NSString+URLEncode.m"; sourceTree = "<group>"; };
+		4421DD641CC3CB7200565A28 /* WordPair+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WordPair+CoreDataProperties.h"; path = "Model/WordPair+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4421DD651CC3CB7200565A28 /* WordPair+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WordPair+CoreDataProperties.m"; path = "Model/WordPair+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4421DD661CC3CB7200565A28 /* WordPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WordPair.h; path = Model/WordPair.h; sourceTree = "<group>"; };
+		4421DD671CC3CB7200565A28 /* WordPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WordPair.m; path = Model/WordPair.m; sourceTree = "<group>"; };
 		44FC86661CC2754F00EB7EEA /* Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Translator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FC866A1CC2754F00EB7EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44FC866C1CC2754F00EB7EEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44FC866D1CC2754F00EB7EEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		44FC866F1CC2754F00EB7EEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		44FC86701CC2754F00EB7EEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		44FC86731CC2754F00EB7EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44FC86761CC2754F00EB7EEA /* Translator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Translator.xcdatamodel; sourceTree = "<group>"; };
 		44FC86781CC2754F00EB7EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44FC867B1CC2754F00EB7EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44FC867D1CC2754F00EB7EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FC86881CC27A0C00EB7EEA /* TRMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRMainController.h; path = Controllers/TRMainController.h; sourceTree = "<group>"; };
+		44FC86891CC27A0C00EB7EEA /* TRMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRMainController.m; path = Controllers/TRMainController.m; sourceTree = "<group>"; };
+		44FC868C1CC298AC00EB7EEA /* TRBorderedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRBorderedView.h; path = Custom/TRBorderedView.h; sourceTree = "<group>"; };
+		44FC868D1CC298AC00EB7EEA /* TRBorderedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRBorderedView.m; path = Custom/TRBorderedView.m; sourceTree = "<group>"; };
+		44FC86901CC2D08E00EB7EEA /* TRTranslateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRTranslateCell.h; path = Cells/TRTranslateCell.h; sourceTree = "<group>"; };
+		44FC86911CC2D08E00EB7EEA /* TRTranslateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRTranslateCell.m; path = Cells/TRTranslateCell.m; sourceTree = "<group>"; };
+		44FC86941CC2DDEA00EB7EEA /* TRNetSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRNetSession.h; path = Core/TRNetSession.h; sourceTree = "<group>"; };
+		44FC86951CC2DDEA00EB7EEA /* TRNetSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRNetSession.m; path = Core/TRNetSession.m; sourceTree = "<group>"; };
+		44FC86971CC39EE400EB7EEA /* TRGoogleClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRGoogleClient.h; path = Core/TRGoogleClient.h; sourceTree = "<group>"; };
+		44FC86981CC39EE400EB7EEA /* TRGoogleClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRGoogleClient.m; path = Core/TRGoogleClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +65,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4421DD611CC3CB3B00565A28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4421DD641CC3CB7200565A28 /* WordPair+CoreDataProperties.h */,
+				4421DD651CC3CB7200565A28 /* WordPair+CoreDataProperties.m */,
+				4421DD661CC3CB7200565A28 /* WordPair.h */,
+				4421DD671CC3CB7200565A28 /* WordPair.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		44FC865D1CC2754F00EB7EEA = {
 			isa = PBXGroup;
 			children = (
@@ -60,10 +95,13 @@
 		44FC86681CC2754F00EB7EEA /* Translator */ = {
 			isa = PBXGroup;
 			children = (
+				4421DD611CC3CB3B00565A28 /* Model */,
+				44FC86931CC2DDBC00EB7EEA /* Core */,
+				44FC868F1CC2D05400EB7EEA /* Cells */,
+				44FC868B1CC2986A00EB7EEA /* Custom */,
+				44FC86871CC279D500EB7EEA /* Controllers */,
 				44FC866C1CC2754F00EB7EEA /* AppDelegate.h */,
 				44FC866D1CC2754F00EB7EEA /* AppDelegate.m */,
-				44FC866F1CC2754F00EB7EEA /* ViewController.h */,
-				44FC86701CC2754F00EB7EEA /* ViewController.m */,
 				44FC86721CC2754F00EB7EEA /* Main.storyboard */,
 				44FC86781CC2754F00EB7EEA /* Assets.xcassets */,
 				44FC867A1CC2754F00EB7EEA /* LaunchScreen.storyboard */,
@@ -80,6 +118,48 @@
 				44FC866A1CC2754F00EB7EEA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44FC86871CC279D500EB7EEA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				44FC86881CC27A0C00EB7EEA /* TRMainController.h */,
+				44FC86891CC27A0C00EB7EEA /* TRMainController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		44FC868B1CC2986A00EB7EEA /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				44FC868C1CC298AC00EB7EEA /* TRBorderedView.h */,
+				44FC868D1CC298AC00EB7EEA /* TRBorderedView.m */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		44FC868F1CC2D05400EB7EEA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				44FC86901CC2D08E00EB7EEA /* TRTranslateCell.h */,
+				44FC86911CC2D08E00EB7EEA /* TRTranslateCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		44FC86931CC2DDBC00EB7EEA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				44FC86941CC2DDEA00EB7EEA /* TRNetSession.h */,
+				44FC86951CC2DDEA00EB7EEA /* TRNetSession.m */,
+				44FC86971CC39EE400EB7EEA /* TRGoogleClient.h */,
+				44FC86981CC39EE400EB7EEA /* TRGoogleClient.m */,
+				4421DD5B1CC3BD8D00565A28 /* JSONHelper.h */,
+				4421DD5C1CC3BD8D00565A28 /* JSONHelper.m */,
+				4421DD5E1CC3BFD500565A28 /* NSString+URLEncode.h */,
+				4421DD5F1CC3BFD500565A28 /* NSString+URLEncode.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +232,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44FC86711CC2754F00EB7EEA /* ViewController.m in Sources */,
+				44FC868E1CC298AC00EB7EEA /* TRBorderedView.m in Sources */,
+				4421DD5D1CC3BD8D00565A28 /* JSONHelper.m in Sources */,
 				44FC86771CC2754F00EB7EEA /* Translator.xcdatamodeld in Sources */,
+				44FC86921CC2D08E00EB7EEA /* TRTranslateCell.m in Sources */,
 				44FC866E1CC2754F00EB7EEA /* AppDelegate.m in Sources */,
+				44FC86961CC2DDEA00EB7EEA /* TRNetSession.m in Sources */,
+				44FC86991CC39EE400EB7EEA /* TRGoogleClient.m in Sources */,
 				44FC866B1CC2754F00EB7EEA /* main.m in Sources */,
+				44FC868A1CC27A0C00EB7EEA /* TRMainController.m in Sources */,
+				4421DD691CC3CB7200565A28 /* WordPair.m in Sources */,
+				4421DD601CC3BFD500565A28 /* NSString+URLEncode.m in Sources */,
+				4421DD681CC3CB7200565A28 /* WordPair+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +355,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Translator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rsianov.Translator;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.rsianov.Translator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -278,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Translator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rsianov.Translator;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.rsianov.Translator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -302,6 +390,7 @@
 				44FC86821CC2754F00EB7EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
