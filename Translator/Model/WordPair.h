@@ -10,6 +10,11 @@
 #import <CoreData/CoreData.h>
 
 NS_ASSUME_NONNULL_BEGIN
+enum WordPairStatus{
+    WordPairStatus_TRANSLATED,
+    WordPairStatus_LOADING,
+    WordPairStatus_ERROR
+};
 
 @interface WordPair : NSManagedObject
 

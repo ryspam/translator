@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSString *translation;
 @property (nullable, nonatomic, retain) NSNumber *idkey;
 @property (nullable, nonatomic, retain) NSNumber *status;
+@property (nullable, nonatomic, retain) NSDate *datetime;
 
 @end
 

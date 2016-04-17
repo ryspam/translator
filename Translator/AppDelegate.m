@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TRGoogleClient.h"
+#import "TRDataUpdater.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [TRGoogleClient sharedInstance].apiKey = @"AIzaSyA6etmERLBO9rxgBKz7bwt_aVRqXaqhmmA";
+    [MagicalRecord setupAutoMigratingCoreDataStack];
+    [[TRDataUpdater sharedInstance] start];
     return YES;
 }
 

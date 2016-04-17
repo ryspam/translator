@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WordPair.h"
 
 @interface TRTranslateCell : UITableViewCell
-- (void)setWordPair:(NSString*)ruWord;
+- (void)setWordPair:(WordPair*)wordPair;
 @end

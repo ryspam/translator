@@ -20,12 +20,27 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
 }
 
-- (void)setWordPair:(NSString*)ruWord{
-    ruTextField.text = ruWord;
+- (void)setWordPair:(WordPair*)wordPair{
+    ruTextField.text = wordPair.original;
+    switch ([wordPair.status intValue]) {
+        case WordPairStatus_TRANSLATED:
+            activity.hidden = YES;
+            enTextField.text = wordPair.translation;
+            break;
+        case WordPairStatus_LOADING:
+            activity.hidden = NO;
+            enTextField.text = @"";
+            break;
+        case WordPairStatus_ERROR:
+            activity.hidden = YES;
+            enTextField.text = @"ERROR";
+            break;
+            
+        default:
+            break;
+    }
 }
 
 @end

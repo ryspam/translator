@@ -25,7 +25,7 @@
                                             <rect key="frame" x="16" y="7" width="226" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                            <textInputTraits key="textInputTraits"/>
                                             <connections>
                                                 <outlet property="delegate" destination="BYZ-38-t0r" id="n1z-W2-Cd8"/>
                                             </connections>
@@ -36,6 +36,9 @@
                                             <rect key="frame" x="252" y="7" width="55" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="ADD"/>
+                                            <connections>
+                                                <action selector="addWord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hrn-jL-UKY"/>
+                                            </connections>
                                         </button>
                                     </barButtonItem>
                                 </items>
@@ -57,10 +60,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uZk-Ut-43Y" customClass="TRBorderedView">
-                                                    <rect key="frame" x="8" y="8" width="152" height="27.5"/>
+                                                    <rect key="frame" x="8" y="4" width="152" height="36"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kBS-yQ-tJf">
-                                                            <rect key="frame" x="8" y="0.0" width="140" height="27.5"/>
+                                                            <rect key="frame" x="8" y="0.0" width="140" height="36"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                             <nil key="highlightedColor"/>
@@ -71,7 +74,7 @@
                                                         <constraint firstAttribute="bottom" secondItem="kBS-yQ-tJf" secondAttribute="bottom" id="3uE-J1-DGY"/>
                                                         <constraint firstItem="kBS-yQ-tJf" firstAttribute="leading" secondItem="uZk-Ut-43Y" secondAttribute="leading" constant="8" id="K7U-LS-a8G"/>
                                                         <constraint firstItem="kBS-yQ-tJf" firstAttribute="top" secondItem="uZk-Ut-43Y" secondAttribute="top" id="No6-Ys-RK5"/>
-                                                        <constraint firstAttribute="height" constant="27.5" id="QGU-ds-qAK"/>
+                                                        <constraint firstAttribute="height" constant="36" id="QGU-ds-qAK"/>
                                                         <constraint firstAttribute="trailing" secondItem="kBS-yQ-tJf" secondAttribute="trailing" constant="4" id="dRN-Vq-fsS"/>
                                                     </constraints>
                                                     <userDefinedRuntimeAttributes>
@@ -81,23 +84,23 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bem-By-4lq" customClass="TRBorderedView">
-                                                    <rect key="frame" x="160" y="8" width="152" height="27.5"/>
+                                                    <rect key="frame" x="160" y="4" width="152" height="36"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="OVS-JX-JNN">
-                                                            <rect key="frame" x="4" y="0.0" width="140" height="27.5"/>
+                                                            <rect key="frame" x="4" y="0.0" width="140" height="36"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="SOZ-fK-erL">
-                                                            <rect key="frame" x="66" y="4" width="20" height="20"/>
+                                                            <rect key="frame" x="66" y="8.5" width="20" height="20"/>
                                                         </activityIndicatorView>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstItem="SOZ-fK-erL" firstAttribute="centerX" secondItem="bem-By-4lq" secondAttribute="centerX" id="38K-po-2PA"/>
                                                         <constraint firstItem="OVS-JX-JNN" firstAttribute="top" secondItem="bem-By-4lq" secondAttribute="top" id="AwU-CE-fWc"/>
-                                                        <constraint firstAttribute="height" constant="27.5" id="DjJ-ax-PHJ"/>
+                                                        <constraint firstAttribute="height" constant="36" id="DjJ-ax-PHJ"/>
                                                         <constraint firstAttribute="trailing" secondItem="OVS-JX-JNN" secondAttribute="trailing" constant="8" id="K41-q8-PbE"/>
                                                         <constraint firstAttribute="bottom" secondItem="OVS-JX-JNN" secondAttribute="bottom" id="QPp-yx-dib"/>
                                                         <constraint firstItem="SOZ-fK-erL" firstAttribute="centerY" secondItem="bem-By-4lq" secondAttribute="centerY" id="b5r-Mc-lkX"/>
@@ -112,16 +115,16 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="uZk-Ut-43Y" firstAttribute="leading" secondItem="BdB-Zk-lgN" secondAttribute="leading" constant="8" id="Bxz-mR-gJl"/>
-                                                <constraint firstItem="uZk-Ut-43Y" firstAttribute="top" secondItem="BdB-Zk-lgN" secondAttribute="top" constant="8" id="MBt-ip-hBi"/>
-                                                <constraint firstItem="bem-By-4lq" firstAttribute="top" secondItem="BdB-Zk-lgN" secondAttribute="top" constant="8" id="SNo-Pc-df5"/>
+                                                <constraint firstItem="uZk-Ut-43Y" firstAttribute="top" secondItem="BdB-Zk-lgN" secondAttribute="top" constant="4" id="MBt-ip-hBi"/>
+                                                <constraint firstItem="bem-By-4lq" firstAttribute="top" secondItem="BdB-Zk-lgN" secondAttribute="top" constant="4" id="SNo-Pc-df5"/>
                                                 <constraint firstItem="bem-By-4lq" firstAttribute="leading" secondItem="uZk-Ut-43Y" secondAttribute="trailing" id="dVP-0Z-zd4"/>
                                                 <constraint firstAttribute="trailing" secondItem="bem-By-4lq" secondAttribute="trailing" constant="8" id="fWJ-Ok-UHC"/>
                                                 <constraint firstItem="bem-By-4lq" firstAttribute="width" secondItem="uZk-Ut-43Y" secondAttribute="width" id="g6b-NI-gJw"/>
-                                                <constraint firstAttribute="bottom" secondItem="bem-By-4lq" secondAttribute="bottom" constant="8" id="hcy-r2-5BW"/>
+                                                <constraint firstAttribute="bottom" secondItem="bem-By-4lq" secondAttribute="bottom" constant="4" id="hcy-r2-5BW"/>
                                                 <constraint firstItem="bem-By-4lq" firstAttribute="leading" secondItem="uZk-Ut-43Y" secondAttribute="trailing" id="hqP-vw-z7q"/>
                                                 <constraint firstItem="uZk-Ut-43Y" firstAttribute="centerY" secondItem="BdB-Zk-lgN" secondAttribute="centerY" id="kMT-B2-Gyt"/>
                                                 <constraint firstItem="bem-By-4lq" firstAttribute="centerY" secondItem="BdB-Zk-lgN" secondAttribute="centerY" id="q2U-Wb-3wl"/>
-                                                <constraint firstAttribute="bottom" secondItem="uZk-Ut-43Y" secondAttribute="bottom" constant="8" id="sNF-LY-y0F"/>
+                                                <constraint firstAttribute="bottom" secondItem="uZk-Ut-43Y" secondAttribute="bottom" constant="4" id="sNF-LY-y0F"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -156,6 +159,9 @@
                                 <rect key="frame" x="233" y="7" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="CANCEL"/>
+                                <connections>
+                                    <action selector="clearWords:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TiQ-4K-5fQ"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>

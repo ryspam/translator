@@ -26,7 +26,6 @@
 - (void)customize{
     self.layer.borderColor = [[UIColor blackColor] CGColor];
     self.layer.borderWidth = _borderWidth;
-    //self.clipsToBounds = YES;
 }
 
 @end

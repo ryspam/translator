@@ -17,7 +17,7 @@ NSString* const API_METHOD_TRANSLATE = @"language/translate/v2";
     
 - (void)translateEnWord:(NSString* _Nonnull)enWord completionHandler:(nullable void (^)(NSString * _Nonnull word, NSError * _Nullable error)) completionHandler{
     
-    [self doRequestApiMethod:API_METHOD_TRANSLATE getParams:@{@"source": @"en", @"target": @"ru", @"q": enWord} completionHandler:^(NSDictionary * _Nullable data, NSError * _Nullable error) {
+    [self doRequestApiMethod:API_METHOD_TRANSLATE getParams:@{@"source": @"ru", @"target": @"en", @"q": enWord} completionHandler:^(NSDictionary * _Nullable data, NSError * _Nullable error) {
         dispatch_async(dispatch_get_main_queue(), ^{
             NSString* word = @"";
             if(error){

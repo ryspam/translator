@@ -17,5 +17,6 @@
 @dynamic translation;
 @dynamic idkey;
 @dynamic status;
+@dynamic datetime;
 
 @end
