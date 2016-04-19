@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4383F5E0C2FB7293C31445F8 /* Pods_Translator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BE726F445682C1C0633587 /* Pods_Translator.framework */; };
 		4421DD5D1CC3BD8D00565A28 /* JSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4421DD5C1CC3BD8D00565A28 /* JSONHelper.m */; };
 		4421DD601CC3BFD500565A28 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4421DD5F1CC3BFD500565A28 /* NSString+URLEncode.m */; };
 		4421DD681CC3CB7200565A28 /* WordPair+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4421DD651CC3CB7200565A28 /* WordPair+CoreDataProperties.m */; };
 		4421DD691CC3CB7200565A28 /* WordPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 4421DD671CC3CB7200565A28 /* WordPair.m */; };
-		4421DD881CC3CD6C00565A28 /* MagicalRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4421DD791CC3CD0100565A28 /* MagicalRecord.framework */; };
 		4421DD8D1CC40C2A00565A28 /* NSError+NoInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4421DD8C1CC40C2A00565A28 /* NSError+NoInternet.m */; };
 		4421DD901CC40E2000565A28 /* TRDataUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 4421DD8F1CC40E2000565A28 /* TRDataUpdater.m */; };
 		4421DD921CC40F5C00565A28 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4421DD911CC40F5C00565A28 /* CoreFoundation.framework */; };
@@ -31,66 +31,8 @@
 		44FC86991CC39EE400EB7EEA /* TRGoogleClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC86981CC39EE400EB7EEA /* TRGoogleClient.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4421DD781CC3CD0100565A28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4421DD6C1CC3CD0100565A28 /* MagicalRecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 905D07181A63DE190076B54E;
-			remoteInfo = "MagicalRecord for iOS";
-		};
-		4421DD7A1CC3CD0100565A28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4421DD6C1CC3CD0100565A28 /* MagicalRecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9004F5211A94CBCF00A61312;
-			remoteInfo = "MagicalRecord for iOS Tests";
-		};
-		4421DD7C1CC3CD0100565A28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4421DD6C1CC3CD0100565A28 /* MagicalRecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 905D073B1A63DE690076B54E;
-			remoteInfo = "MagicalRecord for OS X";
-		};
-		4421DD7E1CC3CD0100565A28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4421DD6C1CC3CD0100565A28 /* MagicalRecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9004F5661A94CBF900A61312;
-			remoteInfo = "MagicalRecord for OS X Tests";
-		};
-		4421DD801CC3CD0100565A28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4421DD6C1CC3CD0100565A28 /* MagicalRecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C7CF97AB17498414008D9D13;
-			remoteInfo = "libMagicalRecord for iOS";
-		};
-		4421DD821CC3CD0100565A28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4421DD6C1CC3CD0100565A28 /* MagicalRecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C7CF97FF174984CA008D9D13;
-			remoteInfo = "libMagicalRecord for iOS Tests";
-		};
-		4421DD841CC3CD0100565A28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4421DD6C1CC3CD0100565A28 /* MagicalRecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C7CF97BB1749843F008D9D13;
-			remoteInfo = "libMagicalRecord for OS X";
-		};
-		4421DD861CC3CD0100565A28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4421DD6C1CC3CD0100565A28 /* MagicalRecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C7CF9816174984E4008D9D13;
-			remoteInfo = "libMagicalRecord for OS X Tests";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		23DBB2C59BD9A36FCF2DCA7F /* Pods-Translator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Translator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Translator/Pods-Translator.debug.xcconfig"; sourceTree = "<group>"; };
 		4421DD5B1CC3BD8D00565A28 /* JSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONHelper.h; path = Core/JSONHelper.h; sourceTree = "<group>"; };
 		4421DD5C1CC3BD8D00565A28 /* JSONHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONHelper.m; path = Core/JSONHelper.m; sourceTree = "<group>"; };
 		4421DD5E1CC3BFD500565A28 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncode.h"; path = "Core/NSString+URLEncode.h"; sourceTree = "<group>"; };
@@ -99,7 +41,6 @@
 		4421DD651CC3CB7200565A28 /* WordPair+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WordPair+CoreDataProperties.m"; path = "Model/WordPair+CoreDataProperties.m"; sourceTree = "<group>"; };
 		4421DD661CC3CB7200565A28 /* WordPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WordPair.h; path = Model/WordPair.h; sourceTree = "<group>"; };
 		4421DD671CC3CB7200565A28 /* WordPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WordPair.m; path = Model/WordPair.m; sourceTree = "<group>"; };
-		4421DD6C1CC3CD0100565A28 /* MagicalRecord.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MagicalRecord.xcodeproj; path = Vendor/MagicalRecord/MagicalRecord.xcodeproj; sourceTree = "<group>"; };
 		4421DD891CC3CE1F00565A28 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4421DD8A1CC403E000565A28 /* Translator 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Translator 2.xcdatamodel"; sourceTree = "<group>"; };
 		4421DD8B1CC40C2A00565A28 /* NSError+NoInternet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+NoInternet.h"; path = "Core/NSError+NoInternet.h"; sourceTree = "<group>"; };
@@ -130,6 +71,8 @@
 		44FC86951CC2DDEA00EB7EEA /* TRNetSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRNetSession.m; path = Core/TRNetSession.m; sourceTree = "<group>"; };
 		44FC86971CC39EE400EB7EEA /* TRGoogleClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRGoogleClient.h; path = Core/TRGoogleClient.h; sourceTree = "<group>"; };
 		44FC86981CC39EE400EB7EEA /* TRGoogleClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRGoogleClient.m; path = Core/TRGoogleClient.m; sourceTree = "<group>"; };
+		6FC26B1DC5286EC0AA360779 /* Pods-Translator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Translator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Translator/Pods-Translator.release.xcconfig"; sourceTree = "<group>"; };
+		D0BE726F445682C1C0633587 /* Pods_Translator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Translator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +83,7 @@
 				4421DD9A1CC4111100565A28 /* Foundation.framework in Frameworks */,
 				4421DD981CC4110800565A28 /* SystemConfiguration.framework in Frameworks */,
 				4421DD921CC40F5C00565A28 /* CoreFoundation.framework in Frameworks */,
-				4421DD881CC3CD6C00565A28 /* MagicalRecord.framework in Frameworks */,
+				4383F5E0C2FB7293C31445F8 /* Pods_Translator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,32 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				4421DD931CC4108E00565A28 /* Reachability */,
-				4421DD6B1CC3CCE500565A28 /* MagicalRecord */,
 			);
 			name = Vendor;
-			sourceTree = "<group>";
-		};
-		4421DD6B1CC3CCE500565A28 /* MagicalRecord */ = {
-			isa = PBXGroup;
-			children = (
-				4421DD6C1CC3CD0100565A28 /* MagicalRecord.xcodeproj */,
-			);
-			name = MagicalRecord;
-			sourceTree = "<group>";
-		};
-		4421DD6D1CC3CD0100565A28 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4421DD791CC3CD0100565A28 /* MagicalRecord.framework */,
-				4421DD7B1CC3CD0100565A28 /* MagicalRecord for iOS Tests.xctest */,
-				4421DD7D1CC3CD0100565A28 /* MagicalRecord.framework */,
-				4421DD7F1CC3CD0100565A28 /* MagicalRecord for OS X Tests.xctest */,
-				4421DD811CC3CD0100565A28 /* libMagicalRecord.a */,
-				4421DD831CC3CD0100565A28 /* libMagicalRecord for iOS Tests.xctest */,
-				4421DD851CC3CD0100565A28 /* libMagicalRecord.dylib */,
-				4421DD871CC3CD0100565A28 /* libMagicalRecord for OS X Tests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4421DD931CC4108E00565A28 /* Reachability */ = {
@@ -207,6 +126,8 @@
 				4421DD911CC40F5C00565A28 /* CoreFoundation.framework */,
 				44FC86681CC2754F00EB7EEA /* Translator */,
 				44FC86671CC2754F00EB7EEA /* Products */,
+				D90564F837C9A06FF8D57940 /* Pods */,
+				D0659F5847363AD4FD7A9269 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -294,6 +215,23 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		D0659F5847363AD4FD7A9269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0BE726F445682C1C0633587 /* Pods_Translator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D90564F837C9A06FF8D57940 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23DBB2C59BD9A36FCF2DCA7F /* Pods-Translator.debug.xcconfig */,
+				6FC26B1DC5286EC0AA360779 /* Pods-Translator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -301,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44FC86801CC2754F00EB7EEA /* Build configuration list for PBXNativeTarget "Translator" */;
 			buildPhases = (
+				9C4D64240F5CBD36C7B91345 /* Check Pods Manifest.lock */,
 				44FC86621CC2754F00EB7EEA /* Sources */,
 				44FC86631CC2754F00EB7EEA /* Frameworks */,
 				44FC86641CC2754F00EB7EEA /* Resources */,
+				1F8024A963AD3E066C70D48E /* Embed Pods Frameworks */,
+				84A09832D0C79D4D45D07FF6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,77 +280,12 @@
 			mainGroup = 44FC865D1CC2754F00EB7EEA;
 			productRefGroup = 44FC86671CC2754F00EB7EEA /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 4421DD6D1CC3CD0100565A28 /* Products */;
-					ProjectRef = 4421DD6C1CC3CD0100565A28 /* MagicalRecord.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				44FC86651CC2754F00EB7EEA /* Translator */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		4421DD791CC3CD0100565A28 /* MagicalRecord.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = MagicalRecord.framework;
-			remoteRef = 4421DD781CC3CD0100565A28 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4421DD7B1CC3CD0100565A28 /* MagicalRecord for iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "MagicalRecord for iOS Tests.xctest";
-			remoteRef = 4421DD7A1CC3CD0100565A28 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4421DD7D1CC3CD0100565A28 /* MagicalRecord.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = MagicalRecord.framework;
-			remoteRef = 4421DD7C1CC3CD0100565A28 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4421DD7F1CC3CD0100565A28 /* MagicalRecord for OS X Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "MagicalRecord for OS X Tests.xctest";
-			remoteRef = 4421DD7E1CC3CD0100565A28 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4421DD811CC3CD0100565A28 /* libMagicalRecord.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libMagicalRecord.a;
-			remoteRef = 4421DD801CC3CD0100565A28 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4421DD831CC3CD0100565A28 /* libMagicalRecord for iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "libMagicalRecord for iOS Tests.xctest";
-			remoteRef = 4421DD821CC3CD0100565A28 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4421DD851CC3CD0100565A28 /* libMagicalRecord.dylib */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = libMagicalRecord.dylib;
-			remoteRef = 4421DD841CC3CD0100565A28 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4421DD871CC3CD0100565A28 /* libMagicalRecord for OS X Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "libMagicalRecord for OS X Tests.xctest";
-			remoteRef = 4421DD861CC3CD0100565A28 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		44FC86641CC2754F00EB7EEA /* Resources */ = {
@@ -423,6 +299,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F8024A963AD3E066C70D48E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Translator/Pods-Translator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84A09832D0C79D4D45D07FF6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Translator/Pods-Translator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C4D64240F5CBD36C7B91345 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		44FC86621CC2754F00EB7EEA /* Sources */ = {
@@ -551,12 +475,14 @@
 		};
 		44FC86811CC2754F00EB7EEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DBB2C59BD9A36FCF2DCA7F /* Pods-Translator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Translator/PrefixHeader.pch;
 				INFOPLIST_FILE = Translator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.rsianov.Translator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -565,12 +491,14 @@
 		};
 		44FC86821CC2754F00EB7EEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC26B1DC5286EC0AA360779 /* Pods-Translator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Translator/PrefixHeader.pch;
 				INFOPLIST_FILE = Translator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.rsianov.Translator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
